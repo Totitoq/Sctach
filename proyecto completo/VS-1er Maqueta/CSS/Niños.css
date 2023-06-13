@@ -1,0 +1,49 @@
+h1{font-family: 'Nosifer', cursive;
+    color: rgb(9, 52, 240);
+    font-size: 40px;
+    text-align: left;
+    }
+
+h2{font-family: 'Trade Winds', cursive;
+    color: rgba(255, 81, 0, 0.925) ;
+
+}
+
+
+nav{font-family: 'Architects Daughter', cursive;
+    text-align: right;
+    display: inline;
+    
+}
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #ffffff;
+    color: green;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: green;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
