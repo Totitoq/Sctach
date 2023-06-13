@@ -1,2 +1,1 @@
-# mi-1er-repositorio
-# Sctach
+este es mi primer proyecto espero disfruten
