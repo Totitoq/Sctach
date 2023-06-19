@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carrito</title>
+  <link rel="stylesheet" href="carrito.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="Index.html">
+          <img src="../imagenes.html/Sc LOGO.jpg" alt="Logo de la página" height="100">
+        </a>
+    
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="Index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Productos.html">Productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="carrito.html">Carrito</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="sobre nosotros.html">Sobre nosotros</a>
+              </li>
+          </ul>
+        </div>
+    </nav>
+    <body>
+        <title>Formulario de Compra</title>
+        <style>
+          form {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+          }
+      
+          label {
+            margin-bottom: 10px;
+          }
+      
+          select,
+          input[type="text"],
+          input[type="number"],
+          textarea {
+            width: 300px;
+            margin-bottom: 10px;
+          }
+      
+          input[type="submit"] {
+            margin-top: 10px;
+          }
+        </style>
+      </head>
+      <body>
+        <h1>Formulario de Compra</h1>
+      
+        <form action="#" method="post">
+          <label for="nombre">Nombre Completo:</label>
+          <input type="text" id="nombre" name="nombre" required>
+      
+          <label for="direccion">Dirección:</label>
+          <input type="text" id="direccion" name="direccion" required>
+      
+          <label for="cantidad">Cantidad de Prendas:</label>
+          <select id="cantidad" name="cantidad">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3 o Mas</option>
+            
+          </select>
+      
+          <label for="forma-pago">Forma de Pago:</label>
+          <select id="forma-pago" name="forma-pago">
+            <option value="efectivo">Efectivo</option>
+            <option value="tarjeta">Tarjeta de Crédito</option>
+            <option value="tarjeta">Deposito</option>
+            
+          </select>
+      
+          <div id="tarjeta-credit" style="display: none;">
+            <label for="tipo-tarjeta">Tipo de Tarjeta:</label>
+            <select id="tipo-tarjeta" name="tipo-tarjeta">
+              <option value="mastercard">Mastercard</option>
+              <option value="visa">Visa</option>
+              <option value="visa">Otras</option>
+             
+            </select>
+      
+            <label for="numero-tarjeta">Número de Tarjeta:</label>
+            <input type="text" id="numero-tarjeta" name="numero-tarjeta">
+      
+            <label for="codigo-seguridad">Código de Seguridad:</label>
+            <input type="password" id="codigo-seguridad" name="codigo-seguridad">
+          </div>
+      
+          <label for="info-tarjeta">Información Adicional de la Tarjeta:</label>
+          <textarea id="info-tarjeta" name="info-tarjeta" placeholder="Ingrese información adicional de la tarjeta"></textarea>
+      
+          <input type="submit" value="Comprar">
+          <input type="reset" value="Borrar">
+        </form>
+        </body>
+        
+      </body>
+    </header>
+ 
